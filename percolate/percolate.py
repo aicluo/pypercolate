@@ -292,7 +292,7 @@ def sample_states(
         ]
 
     # get first node
-    max_cluster_root = perc_graph.node_iter()
+    max_cluster_root = 0 #perc_graph.node_iter()
 
     # loop over all edges (n == 1..M)
     for n in range(num_edges):
@@ -300,7 +300,7 @@ def sample_states(
 
         # draw new edge from permutation
         edge_index = perm_edges[n]
-        edge = perc_edges[edge_index]
+        edge = list(perc_edges)[edge_index]
         ret['edge'] = edge
 
         # find roots and weights
