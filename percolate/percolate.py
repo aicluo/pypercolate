@@ -103,7 +103,7 @@ def percolation_graph(graph, spanning_cluster=True):
 def sample_states(
     graph, spanning_cluster=True, model='bond', copy_result=True
 ):
-    '''
+    r'''
     Generate successive sample states of the percolation model
 
     This is a :ref:`generator function <python:tut-generators>` to successively
@@ -955,11 +955,11 @@ def spanning_2d_grid(length):
 
     for i in range(length):
         # side 0
-        ret.node[(0, i)]['span'] = 0
+        ret.nodes[(0, i)]['span'] = 0
         ret[(0, i)][(1, i)]['span'] = 0
 
         # side 1
-        ret.node[(length + 1, i)]['span'] = 1
+        ret.nodes[(length + 1, i)]['span'] = 1
         ret[(length + 1, i)][(length, i)]['span'] = 1
 
     return ret
