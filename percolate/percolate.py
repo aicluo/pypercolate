@@ -558,7 +558,7 @@ def _microcanonical_average_spanning_cluster(has_spanning_cluster, alpha):
     runs = has_spanning_cluster.size
 
     # Bayesian posterior mean for Binomial proportion (uniform prior)
-    k = has_spanning_cluster.sum(dtype=np.float)
+    k = has_spanning_cluster.sum(dtype=float)
     ret['spanning_cluster'] = (
         (k + 1) / (runs + 2)
     )
