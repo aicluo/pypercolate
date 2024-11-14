@@ -9,6 +9,11 @@
 
 import pytest
 import inspect
+
+import sys 
+import os
+sys.path.append(os.path.abspath("C:/Users/aiclu/Desktop/CS/Network_Science/pypercolate/pypercolate-1/percolate"))
+
 import percolate
 import numpy as np
 import scipy.stats

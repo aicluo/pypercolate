@@ -79,11 +79,11 @@ __ https://github.com/andsor/pypercolate/issues/6
 
 """
 
-from __future__ import (absolute_import, division,
-                        print_function, unicode_literals)
-from future.builtins import (ascii, bytes, chr, dict, filter, hex, input,
-                             int, map, next, oct, open, pow, range, round,
-                             str, super, zip)
+# from __future__ import (absolute_import, division,
+#                         print_function, unicode_literals)
+# from future.builtins import (ascii, bytes, chr, dict, filter, hex, input,
+#                              int, map, next, oct, open, pow, range, round,
+#                              str, super, zip)
 
 from percolate.percolate import (
     sample_states,
@@ -98,4 +98,4 @@ from percolate.percolate import (
 
 import pkg_resources
 
-__version__ = pkg_resources.get_distribution(__name__).version
+# __version__ = pkg_resources.get_distribution(__name__).version
