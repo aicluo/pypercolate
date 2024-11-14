@@ -10,11 +10,11 @@ See also
 percolate : The high-level module
 """
 
-from __future__ import (absolute_import, division,
-                        print_function, unicode_literals)
-from future.builtins import (ascii, bytes, chr, dict, filter, hex, input,
-                             int, map, next, oct, open, pow, range, round,
-                             str, super, zip)
+# from __future__ import (absolute_import, division,
+#                         print_function, unicode_literals)
+# from future.builtins import (ascii, bytes, chr, dict, filter, hex, input,
+#                              int, map, next, oct, open, pow, range, round,
+#                              str, super, zip)
 
 import copy
 import numpy as np
